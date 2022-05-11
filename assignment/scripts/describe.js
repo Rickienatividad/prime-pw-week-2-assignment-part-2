@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called NAME(only capitalizing for clarity) and assigned it a value of Dane.
+// We set a conditional if/else statement to check if NAME's value is equal to Mary.
+// The script determined the value is not equal to Mary so it ran the "else" code.
+// - How do you do? - was output to the console.
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared a variable called SECRET.
+// We declared another variable called CODE and assigned it a value of 123.
+// We made a conditional to check if CODE's value is equal to 123. It is so the code runs and 
+// assigns our variable SECRET a value of 'super' and takes our other variable CODE and multiplies it by 2 giving it a new value of 246.
+// A second conditional was made to see if CODE has a value of more than 250. It was determined that 
+// CODE is not over 250 so the subsequent code is not run. 
+// Our last line of code has the word - super - logged to the console.
 
 //CODE
 /*
@@ -70,10 +73,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared a boolean variable called isStudent with a value of true
+// A variable called age is declared with a value of 34
+// A variable called zip is declared with a value of 55407
+// We created a conditional with 4 possible outputs.
+// We work our way down the if/else statement until we come to block(s) of code 
+// that can be executed if all the specified conditions are true
+// - Welcome to Prime! - is logged to the console. The else block of code is ignored.
 
 //CODE
 /*
