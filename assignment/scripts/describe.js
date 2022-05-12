@@ -136,9 +136,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+          FIX - the values of the two variables are reversed. It should read: 
+          let colorOne = 'blue';
+          let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+          FIX - the conditional statement is supposed to change the values of colorOne AND colorTwo to 'purple' if our other variable(mix) is true, however, as written it only affects colorOne. We need to add: 
+          colorTwo = 'purple'; 
+          before closing the if statement.
 
 if (mix === true) {
   colorOne = 'purple';
@@ -153,6 +161,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+          FIX - we have the incorrect operator to check for an AND condition. We should substitute || with &&.
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -166,7 +176,20 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+          FIX - We are supposed to check if age is greater than or equal to minAge. What we have is checking if minAge is less than or equal to age which is essentially the same thing, but the outputs would need to be reversed to make sense. However, to write the code as instructed we would change the first line of the if/else statement to :
+
+          if(age >= minAge) {
+
+
 if(minAge <= age) {
+
+          FIX - We need to change these console.log instructions around to get the desired outcome of allowing entry if age is greater than minAge.
+          
+          console.log('entry');
+          } else {
+            console.log(' no entry');
+          }
+
   console.log('no entry');
 } else {
   console.log('enter');
