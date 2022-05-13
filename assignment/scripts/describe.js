@@ -176,7 +176,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-          FIX - We are supposed to check if age is greater than or equal to minAge. What we have is checking if minAge is less than or equal to age which is essentially the same thing, but the outputs would need to be reversed to make sense. However, to write the code as instructed we would change the first line of the if/else statement to :
+          FIX - We are supposed to check if age is greater than or equal to minAge. What we have is checking if minAge is less than or equal to age which is essentially the same thing, however, to write the code as instructed we would change the first line of the if/else statement to :
 
           if(age >= minAge) {
 
